@@ -20,30 +20,6 @@
 /*  navigation Bar logo and image */
 #logo{
     margin: 25px 20px;
-
-}
-/* front Section */
-#front{
-    display: flex;
-    flex-direction:column;
-    padding: 3px 100px;
-    height: 450px;
-    justify-content: center  ;
-    align-items: center;
-} 
-#front::before{
-    content:"";
-    position:absolute;
-    background:url("bg1.jpg") no-repeat center center/cover;
-    height:100%;
-    width:100%;
-    z-index: -1;
-    opacity: 0.89;
-} 
-#front h1{
-    color:white;
-    text-align: center;
-    font-family: 'Bree Serif', serif;
 }
 #logo img{
     height: 40px;
@@ -71,4 +47,64 @@
 #navbar ul li a:hover{
     color: red;
     background-color:white;
+}
+/* front Section */
+#front{
+    display: flex;
+    flex-direction:column;
+    padding: 3px 100px;
+    height: 450px;
+    justify-content: center  ;
+    align-items: center;
+} 
+#front::before{
+    content:"";
+    position:absolute;
+    background:url("bg1.jpg") no-repeat center center/cover;
+    height:100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.89;
+} 
+#front h1{
+    color:white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+/* service section */
+#func{
+    margin:20px;
+    display: flex;
+}
+#func .box{
+    border: 2px solid brown;
+}
+#func .box img{
+    height: 100px;
+}
+
+/* utility classes */
+.h-primary{
+    font-size:2.5rem;
+    padding:12px;
+}
+.h-secondary{
+    font-size:1.8rem;
+    padding:12px;
+}
+.bnt{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+}
+.bnt:hover{
+    font-weight: bold;
+    background-color: white;
+    color: darkslateblue;
+    border-radius: 20px;
+}
+.center{
+    text-align: center;
 }
