@@ -113,3 +113,7 @@
 .center{
     text-align: center;
 }
+footer{
+    font-weight: bold;
+    font-style:italic;
+}
