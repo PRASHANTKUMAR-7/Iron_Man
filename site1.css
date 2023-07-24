@@ -114,6 +114,8 @@
     text-align: center;
 }
 footer{
+    background-color:black;
+    color:white;
     font-weight: bold;
     font-style:italic;
 }
