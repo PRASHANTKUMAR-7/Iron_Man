@@ -43,7 +43,7 @@
 }
 #navbar ul li a{
     display:block;
-    padding:5px 10px;
+    padding:4px 8px;
     border-radius:20px;
     text-decoration:none;
 }
@@ -55,7 +55,7 @@
 #front{
     display: flex;
     flex-direction:column;
-    padding: 3px 100px;
+    padding: 4px 100px;
     height: 450px;
     justify-content: center  ;
     align-items: center;
@@ -67,7 +67,7 @@
     height:100%;
     width:100%;
     z-index: -1;
-    opacity: 0.89;
+    opacity: 0.8;
 } 
 #front h1{
     color:white;
