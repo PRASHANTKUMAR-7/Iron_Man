@@ -10,7 +10,7 @@
 }
 #navbar::before{
     content:"";
-    background-color: black;
+    background-color:black;
     position:absolute;
     height:100%;
     width:100%;
@@ -114,7 +114,7 @@
     text-align: center;
 }
 footer{
-    background-color:black;
+    background-color: black;
     color:white;
     font-weight: bold;
     font-style:italic;
