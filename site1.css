@@ -20,10 +20,12 @@
 /*  navigation Bar logo and image */
 #logo{
     margin: 25px 20px;
+    padding:0px;
 }
 #logo img{
     height: 40px;
     margin: -14px -3px;
+    padding:0px;
 }
 /* Navigation Bar list Styling */
 #navbar{
@@ -32,6 +34,7 @@
 #navbar ul{
     display: flex;
     font-family: 'Bree Serif', serif;
+    font-weight:bold;
 }
 #navbar ul li{
     list-style:none;
