@@ -112,12 +112,14 @@
 }
 .bnt:hover{
     font-weight: bold;
+    font_style:italic;
     background-color: white;
     color: darkslateblue;
     border-radius: 20px;
 }
 .center{
     text-align: center;
+    
 }
 footer{
     background-color: black;
